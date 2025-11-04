@@ -1,7 +1,7 @@
 # Intro
 
 For go i want to use the [gorazor template engine](https://github.com/sipin/gorazor/tree/v1.2.2). 
-I used code from gorazor repository and from [go template benchmark](https://github.com/slinso/goTemplateBenchmark/blob/master/gorazor/tpl/layout/base.gohtml) and ran `gorazor tpl tpl` and got `panic: Can't find layout: rzrexmpl/tpl/layout/base [Home]`:
+I used code from gorazor repository and from [go template benchmark](https://github.com/slinso/goTemplateBenchmark/blob/master/gorazor/tpl/layout/base.gohtml) and ran `gorazor tpl tpl` and got `panic: Can't find layout: rzrexmpl/tpl/layout/base [Home]`. To fix this you have to use `-prefix ...` like this `gorazor -prefix rzrexmpl ./tpl ./tpl`
 
 ```bash
 gorazor -prefix rzrexmpl ./tpl ./tpl
