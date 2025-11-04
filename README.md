@@ -24,5 +24,6 @@ rzrexmpl
     |       └─── base.gohtml
     └─── home.gohtml
 ```
-
+This repo has all the code to reproduce the error. 
+It is unclear to me what i have to change either in the template files or in the imports. To be able to generate the code from the `gohtml` files. 
 See [this question at stackoverflow `gorazor-cant-find-layout`](https://stackoverflow.com/questions/79808592/gorazor-cant-find-layout)
